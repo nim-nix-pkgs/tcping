@@ -11,7 +11,6 @@
   inputs.src-tcping-master.ref   = "refs/heads/master";
   inputs.src-tcping-master.owner = "pdrb";
   inputs.src-tcping-master.repo  = "tcping";
-  inputs.src-tcping-master.dir   = "";
   inputs.src-tcping-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
